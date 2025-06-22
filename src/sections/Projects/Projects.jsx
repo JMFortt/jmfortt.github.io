@@ -24,6 +24,12 @@ function Projects() {
                 p="Video Game"
                 />
                 <ProjectCard 
+                src={PIDLineFollower} 
+                link="https://github.com/jmfortt"
+                h3="Pomodoro Work Timer"
+                p="JavaFX App"
+                />
+                <ProjectCard 
                 src={autonomousArduinoRobot} 
                 link="https://github.com/jmfortt"
                 h3="Autonomous Arduino Robot"
@@ -34,6 +40,12 @@ function Projects() {
                 link="https://github.com/jmfortt"
                 h3="PID Line Follower"
                 p="Robotics Project"
+                />
+                <ProjectCard 
+                src={PIDLineFollower} 
+                link="https://github.com/jmfortt"
+                h3="Portfolio Website"
+                p="WebDev"
                 />
             </div>
         </section>
