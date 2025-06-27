@@ -1,14 +1,21 @@
-:root {
-  --background-color: #fff;
-  --btn-color: #0987f2;
-  --btn-text-color: #fff;
-  --project-card-bg: #ffffff00;
-  --text-color: #222;
-  --form-text-color: #555;
-  --footer-text-color: #888;
+@font-face {
+  font-family: "pixelifySans";
+  src: url("./assets/fonts/PixelifySans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: bold;
+}
+@font-face {
+  font-family: "jersey10";
+  src: url("./assets/fonts/Jersey10-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-[data-theme='dark'] {
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
   --background-color: #222;
   --btn-color: #fff;
   --btn-text-color: #222;
@@ -20,49 +27,25 @@
 
 body {
   background-color: var(--background-color);
-  display: flex;
+  display: block;
   justify-content: center;
-  margin: 0 auto 60px
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  scroll-margin-top: 45px;
 }
 
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
-}
-
-h1, h2, h3, p {
-  color: var(--text-color);
-  margin: 0;
-  padding: 0;
-}
-
-h2, h3, p {
-  font-family: 'Roboto Mono', monospace;
-}
-
-h1, h2 {
-  text-transform: uppercase;
-}
-
-h2, h3 {
-  font-size: 20px;
-}
-
-h1 {
-  font-family: 'Rubic', sans-serif;
-  font-size: 32px;
-}
-
-p {
-  font-size: 16px;
-  font-weight: 300;
 }
 
 .sectionTitle {
-  margin-bottom: 30px;
-}
-
-.hover{
-  cursor: pointer;
+  margin: 30px 60px;
+  text-align: left;
+  font-family: "pixelifySans";
+  font-size: 32px;
+  color: var(--text-color);
 }
