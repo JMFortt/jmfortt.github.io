@@ -13,7 +13,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
-      <div className={styles.projectsContainer}>
+      <div className={styles.content}>
         <ProjectCard
           h1="MoleMaker"
           h2="An educational video game."

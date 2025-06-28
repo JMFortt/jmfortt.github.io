@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 3%;
+  padding-bottom: 6%;
+  background-color: blue;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text {
+  font-family: "jersey10";
+  color: var(--text-color);
+  list-style-position: inside;
+  text-align: left;
+}
