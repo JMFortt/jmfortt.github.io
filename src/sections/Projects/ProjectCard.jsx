@@ -37,7 +37,7 @@ function ProjectCard({ h1, h2, p, images, links, tags }) {
         </div>
       </div>
 
-      <div className={styles.projectTags}>
+      <div className="tags">
         {tags && tags.map((tag, i) => <Tag key={i} tag={tag} />)}
       </div>
     </section>

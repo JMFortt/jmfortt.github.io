@@ -49,3 +49,11 @@ section {
   font-size: 32px;
   color: var(--text-color);
 }
+
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  text-wrap: none;
+}

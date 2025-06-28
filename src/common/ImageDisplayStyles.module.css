@@ -22,11 +22,13 @@ button.next {
   transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.5);
   color: white;
+  font-family: "pixelifySans";
   border: none;
   font-size: 2rem;
   cursor: pointer;
   z-index: 1;
   padding: 0.5rem;
+  border-radius: 10px;
 }
 
 button.prev {
