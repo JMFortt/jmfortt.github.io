@@ -3,6 +3,7 @@ import Profile from "./sections/Profile/Profile";
 import Projects from "./sections/Projects/Projects";
 import Header from "./sections/Header/Header";
 import Skills from "./sections/Skills/Skills";
+import Experience from "./sections/Experience/Experience";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Profile />
       <Projects />
       <Skills />
+      <Experience />
     </>
   );
 }
