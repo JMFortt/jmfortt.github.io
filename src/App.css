@@ -17,12 +17,12 @@ html {
 
 :root {
   --background-color: #091014;
-  --gradient-color: #2e698b;
-  --complement-color: #586973;
+  --gradient-color: #26848c;
+  --complement-color: #454545;
   --text-color: #ffffff;
-  --contrast-color: #1ba4d6;
-  --card-color: rgba(65, 105, 128, 0.2);
-  --tag-color: rgba(37, 112, 197, 0.3);
+  --contrast-color: rgba(37, 197, 160, 1);
+  --card-color: rgba(61, 105, 128, 0.25);
+  --tag-color: rgba(37, 197, 160, 0.2);
 }
 
 body {
