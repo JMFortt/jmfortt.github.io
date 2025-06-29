@@ -5,12 +5,7 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <div className={styles.content}>
-        <p className={styles.text}>
-          Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-          Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-          Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-          Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-        </p>
+        <p className={styles.text}>© 2025 Julia Fortt | Designed in Figma </p>
       </div>
     </section>
   );

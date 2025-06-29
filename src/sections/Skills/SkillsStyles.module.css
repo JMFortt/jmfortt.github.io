@@ -11,3 +11,10 @@
   text-align: center;
   margin: 0 auto;
 }
+
+.text {
+  text-align: left;
+  font-family: "pixelifySans";
+  font-size: 20px;
+  color: var(--text-color);
+}

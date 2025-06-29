@@ -1,6 +1,10 @@
 .container {
-  padding: 3% 5%;
+  margin-top: -45px;
+  padding-top: 90px;
   background-image: linear-gradient(rgb(61, 116, 255), rgb(47, 47, 47));
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .content {

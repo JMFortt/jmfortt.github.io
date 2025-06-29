@@ -4,36 +4,45 @@ import styles from "./SkillsStyles.module.css";
 import Tag from "../../common/Tag";
 
 function Skills() {
-  const tags = [
-    "foo",
-    "bar",
-    "baz",
-    "foo",
-    "bar",
-    "baz",
-    "foo",
-    "bar",
-    "baz",
-    "foo",
-    "bar",
-    "baz",
-    "foo",
-    "bar",
-    "baz",
-    "foo",
-    "bar",
-    "baz",
-    "foo",
-    "bar",
-    "baz",
+  const languages = [
+    "Python",
+    "Java",
+    "C",
+    "C#",
+    "JavaScript",
+    "TypeScript",
+    "HTML/CSS",
+    "GDScript",
+  ];
+
+  const toolsTechnologies = [
+    "Git",
+    "Linux",
+    "Arduino",
+    "Firebase",
+    "Godot",
+    "Unity",
+    "Ros2",
+    "Docker",
+    "SOLIDWORKS",
+    "React",
+    "Figma",
+    "Aseprite",
+    "Vite",
   ];
 
   return (
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.content}>
+        <p className={styles.text}>Languages</p>
         <div className="tags">
-          {tags && tags.map((tag, i) => <Tag key={i} tag={tag} />)}
+          {languages && languages.map((tag, i) => <Tag key={i} tag={tag} />)}
+        </div>
+        <p className={styles.text}>Tools/Technologies</p>
+        <div className="tags">
+          {toolsTechnologies &&
+            toolsTechnologies.map((tag, i) => <Tag key={i} tag={tag} />)}
         </div>
       </div>
     </section>

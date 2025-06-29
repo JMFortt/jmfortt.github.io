@@ -5,7 +5,8 @@
   margin-top: 30px;
   padding-top: 3%;
   padding-bottom: 6%;
-  background-color: blue;
+  background-color: black;
+  border-top: 2px solid grey;
 }
 
 .content {
@@ -17,5 +18,5 @@
   font-family: "jersey10";
   color: var(--text-color);
   list-style-position: inside;
-  text-align: left;
+  text-align: center;
 }

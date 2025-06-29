@@ -6,11 +6,22 @@ function Experience() {
     <section id="experience" className={styles.container}>
       <h1 className="sectionTitle">Experience</h1>
       <div className={styles.content}>
-        <ul className={styles.text}>
-          <li>foo</li>
-          <li>foo</li>
-          <li>foo</li>
-        </ul>
+        <p className={styles.text}>
+          MIT Intro to CS/Data Science Teaching Assistant | Expected Sept. 2025
+          - Dec. 2025
+        </p>
+        <p className={styles.text}>
+          Amazon SDE Intern | June 2025 - Aug. 2025{" "}
+        </p>
+        <p className={styles.text}>
+          MIT Game Development Guild Secretary | Sept. 2024 - May 2026
+        </p>
+        <p className={styles.text}>
+          MIT Intro to CS/Data Science Lab Assistant | Sept. 2025 - May 2025
+        </p>
+        <p className={styles.text}>
+          MIT Game Lab Psims UROP | June 2024 - Aug. 2024{" "}
+        </p>
       </div>
     </section>
   );
