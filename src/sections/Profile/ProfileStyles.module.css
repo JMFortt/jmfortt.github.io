@@ -33,7 +33,7 @@
   border-radius: 50%;
   margin-bottom: 30px;
   border: 2px solid var(--complement-color);
-  max-width: 100%;
+  max-width: 200px;
   height: auto;
 }
 
@@ -49,7 +49,7 @@
 
 .right {
   flex: 1 1 0;
-  max-width: 600px;
+  max-width: 500px;
   min-width: 0;
   overflow-wrap: break-word;
 }
@@ -94,7 +94,7 @@
   }
 
   .right {
-    max-width: 100%;
+    max-width: 70%;
   }
 
   .title {
