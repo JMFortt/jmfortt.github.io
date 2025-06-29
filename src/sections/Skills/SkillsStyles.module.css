@@ -15,6 +15,6 @@
 .text {
   text-align: left;
   font-family: "pixelifySans";
-  font-size: 20px;
+  font-size: 28px;
   color: var(--text-color);
 }

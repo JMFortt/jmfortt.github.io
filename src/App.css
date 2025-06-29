@@ -16,13 +16,13 @@ html {
 }
 
 :root {
-  --background-color: #222;
-  --btn-color: #fff;
-  --btn-text-color: #222;
-  --project-card-bg: #fff;
-  --text-color: #fff;
-  --form-text-color: #fff;
-  --footer-text-color: #bbb;
+  --background-color: #091014;
+  --gradient-color: #2e698b;
+  --complement-color: #246d98;
+  --text-color: #ffffff;
+  --contrast-color: #1ba4d6;
+  --card-color: rgba(65, 105, 128, 0.2);
+  --tag-color: rgba(37, 112, 197, 0.3);
 }
 
 body {
@@ -43,11 +43,11 @@ section {
 }
 
 .sectionTitle {
+  color: var(--contrast-color);
   margin: 30px 60px;
   text-align: left;
   font-family: "pixelifySans";
   font-size: 32px;
-  color: var(--text-color);
 }
 
 .tags {

@@ -1,8 +1,8 @@
 .tag {
-  background: #4f4f4f;
-  color: #fff;
+  background: var(--tag-color);
+  color: var(--contrast-color);
   padding: 4px 10px;
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 16px;
   font-family: "pixelifySans";
 }

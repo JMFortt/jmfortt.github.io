@@ -53,7 +53,10 @@ function Profile() {
             EdTech, but I love to learn, design and build all sorts of things.
             <br />
             <br />
-            <a className={styles.text} style={{ color: "pink" }}>
+            <a
+              className={styles.text}
+              style={{ color: "var(--contrast-color)" }}
+            >
               Want to get in touch?{" "}
             </a>
             Feel free to reach out on LinkedIn!

@@ -1,7 +1,10 @@
 .container {
   margin-top: -45px;
   padding-top: 90px;
-  background-image: linear-gradient(rgb(61, 116, 255), rgb(47, 47, 47));
+  background-image: linear-gradient(
+    var(--gradient-color),
+    var(--background-color)
+  );
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -29,7 +32,7 @@
 .avatar {
   border-radius: 50%;
   margin-bottom: 30px;
-  border: 2px solid white;
+  border: 2px solid var(--complement-color);
   max-width: 100%;
   height: auto;
 }
@@ -53,23 +56,22 @@
 
 .title {
   font-family: pixelifySans;
-  font-size: 40px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: var(--text-color);
+  font-size: 32px;
+  margin: 10px 0px;
+  color: var(--contrast-color);
 }
 
 .subtitle {
   font-family: pixelifySans;
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: var(--text-color);
+  font-size: 16px;
+  margin: 10px 0px;
+  color: var(--contrast-color);
 }
 
 .text {
   font-family: jersey10;
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 16px;
+  margin: 10px 0px;
   overflow-wrap: break-word;
   hyphens: auto;
   color: var(--text-color);

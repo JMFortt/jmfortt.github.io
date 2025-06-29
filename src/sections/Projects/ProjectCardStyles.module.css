@@ -1,6 +1,6 @@
 .projectCard {
-  background-color: rgba(0, 0, 0, 0.25);
-  color: white;
+  background-color: var(--card-color);
+  color: var(--text-color);
   width: 80%;
   height: fit-content;
   display: flex;
@@ -25,11 +25,6 @@
   align-items: flex-start;
 }
 
-.projectCardHeader {
-  text-align: left;
-  padding: 10px;
-}
-
 .left {
   flex: 1 1 0;
   min-width: 0;
@@ -47,9 +42,12 @@
 }
 
 .title {
+  color: var(--text-color);
+
   text-align: left;
   padding: 10px;
-  font-size: 20px;
+  font-size: 24px;
+  margin: 10px 0px;
   font-family: "pixelifySans";
 }
 
@@ -71,7 +69,7 @@
   font-weight: 300;
   text-align: left;
   font-family: "jersey10";
-  color: pink;
+  color: var(--contrast-color);
 }
 
 @media (max-width: 800px) {

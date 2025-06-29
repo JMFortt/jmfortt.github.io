@@ -6,12 +6,12 @@ import Tag from "../../common/Tag";
 function ProjectCard({ h1, h2, p, images, links, tags }) {
   return (
     <section className={styles.projectCard}>
-      <div className={styles.title}>
-        <h3>{h1}</h3>
-      </div>
+      <div className={styles.title}>{h1}</div>
       <div className={styles.projectCardContent}>
         <div className={styles.left}>
-          <p className={styles.text}>{h2}</p>
+          <p className={styles.text} style={{ fontSize: "24px" }}>
+            {h2}
+          </p>
           <br />
           <p className={styles.text}>{p}</p>
           {links.length > 0 && (

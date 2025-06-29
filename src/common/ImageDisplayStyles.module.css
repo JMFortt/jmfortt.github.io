@@ -4,7 +4,7 @@
   max-width: 400px;
   height: 300px;
   overflow: hidden;
-  background: rgb(30, 55, 111);
+  background: var(--tag-color);
   border-radius: 6px;
 }
 
