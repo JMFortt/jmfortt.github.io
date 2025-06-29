@@ -13,14 +13,10 @@ import trashBanditsRecycledImg3 from "../../assets/trashBanditsRecycled/img3.png
 import trashBanditsRecycledImg4 from "../../assets/trashBanditsRecycled/img4.png";
 import trashBanditsRecycledImg5 from "../../assets/trashBanditsRecycled/img5.png";
 
-import pomodoroWorkTimerImg1 from "../../assets/pomodoroWorkTimer/img1.png";
-
 import autonomousArduinoRobotImg1 from "../../assets/autonomousArduinoRobot/img1.jpg";
 import autonomousArduinoRobotImg2 from "../../assets/autonomousArduinoRobot/img2.jpg";
 
 import PIDLineFollowerImg1 from "../../assets/PIDLineFollower/img1.jpg";
-
-import portfolioWebsiteImg1 from "../../assets/portfolioWebsite/img1.png";
 
 function Projects() {
   return (
@@ -72,19 +68,6 @@ function Projects() {
           tags={["Unity", "C#", "GitHub", "Aesprite"]}
         />
         <ProjectCard
-          h1="Pomodoro Work Timer"
-          h2="A small productivity web app."
-          p={`Designed in Figma, built using Java/JavaFX.`}
-          images={[pomodoroWorkTimerImg1]}
-          links={[
-            {
-              text: "See the git repo here",
-              url: "https://github.com/JMFortt",
-            },
-          ]}
-          tags={["Java", "JavaFX", "GitHub"]}
-        />
-        <ProjectCard
           h1="Autonomous Arduino Robot"
           h2="Robotics project."
           p={`Built as part of MIT's Design & Manufacturing I: Autonomous Machines course.`}
@@ -99,14 +82,6 @@ function Projects() {
           images={[PIDLineFollowerImg1]}
           links={[]}
           tags={["C", "Arduino"]}
-        />
-        <ProjectCard
-          h1="Portfolio Website"
-          h2="This site!"
-          p={`Designed in Figma, built using React, Javascript and Vite.`}
-          images={[portfolioWebsiteImg1]}
-          links={[]}
-          tags={["Javascript", "HTML", "CSS", "React", "GitHub", "Vite"]}
         />
       </div>
     </section>
