@@ -55,6 +55,6 @@ section {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin: 20px 0px;
   text-wrap: none;
 }

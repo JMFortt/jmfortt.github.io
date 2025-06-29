@@ -1,4 +1,4 @@
-.projectCard {
+.container {
   background-color: var(--card-color);
   color: var(--text-color);
   width: 90%;
@@ -10,26 +10,26 @@
   outline: 2px solid transparent;
 }
 
-.projectCard:hover {
+.container:hover {
   outline: 2px solid var(--contrast-color);
 }
 
-.projectCardContent {
+.content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
   flex-wrap: nowrap;
-  gap: 20px;
   align-items: flex-start;
+  align-items: stretch;
+  gap: 20px;
 }
 
 .left {
-  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
   min-width: 0;
-  max-height: 300px;
-  overflow-y: auto;
-  overflow-wrap: anywhere;
   word-wrap: break-word;
   text-align: left;
 }
@@ -38,16 +38,39 @@
   flex: 0 0 auto;
   width: 100%;
   max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.top {
+  flex-shrink: 0;
+}
+
+.middle {
+  flex-grow: 1;
+}
+
+.bottom {
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
 .title {
   color: var(--text-color);
-
   text-align: left;
-  padding: 10px;
   font-size: 24px;
-  margin: 10px 0px;
   font-family: "pixelifySans";
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-family: "jersey10";
+  color: var(--text-color);
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .text {
@@ -72,21 +95,34 @@
 }
 
 @media (max-width: 800px) {
-  .projectCardContent {
+  .content {
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    align-items: stretch;
+    padding: 15px;
   }
 
   .left {
     width: 100%;
     max-height: none;
-    overflow-y: visible;
-    min-height: auto;
+    overflow: visible;
+  }
+
+  .middle {
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
   }
 
   .right {
     width: 100%;
     max-width: none;
+    margin-top: 0px;
+  }
+
+  .tags {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
   }
 }
