@@ -1,18 +1,17 @@
 .projectCard {
   background-color: var(--card-color);
   color: var(--text-color);
-  width: 80%;
+  width: 90%;
   height: fit-content;
   display: flex;
   flex-direction: column;
-  padding: 20px;
   border-radius: 8px;
   transition: box-shadow 0.3s ease, outline 0.3s ease;
   outline: 2px solid transparent;
 }
 
 .projectCard:hover {
-  box-shadow: 0 0 10px white;
+  outline: 2px solid var(--contrast-color);
 }
 
 .projectCardContent {

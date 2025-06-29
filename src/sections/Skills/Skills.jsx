@@ -35,7 +35,9 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.content}>
-        <p className={styles.text}>Languages</p>
+        <p className={styles.text} style={{ marginTop: "0px" }}>
+          Languages
+        </p>
         <div className="tags">
           {languages && languages.map((tag, i) => <Tag key={i} tag={tag} />)}
         </div>

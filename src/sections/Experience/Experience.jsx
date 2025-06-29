@@ -6,7 +6,7 @@ function Experience() {
     <section id="experience" className={styles.container}>
       <h1 className="sectionTitle">Experience</h1>
       <div className={styles.content}>
-        <p className={styles.text}>
+        <p className={styles.text} style={{ marginTop: "0px" }}>
           MIT Intro to CS/Data Science Teaching Assistant | Expected Sept. 2025
           - Dec. 2025
         </p>
