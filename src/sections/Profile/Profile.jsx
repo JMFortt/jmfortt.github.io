@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ProfileStyles.module.css";
-import profileImg from "../../assets/ProfileImage.jpg";
+import profileImg from "../../assets/profileImage.jpg";
 import linkedinLogo from "../../assets/linkedinLogo.svg";
 import githubLogo from "../../assets/githubLogo.svg";
 import itchLogo from "../../assets/itchLogo.svg";
