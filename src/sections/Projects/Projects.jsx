@@ -33,11 +33,11 @@ function Projects() {
           images={[molemakerImg1, molemakerImg2, molemakerImg3, molemakerImg4]}
           links={[
             {
-              text: "See the git repo here",
-              url: "https://github.com/JMFortt",
+              text: "See the Git repo",
+              url: "https://github.com/JMFortt/mole-maker",
             },
             {
-              text: "play the game here",
+              text: "Play the game",
               url: "https://jmfortt.itch.io/mole-maker",
             },
           ]}
@@ -60,16 +60,12 @@ function Projects() {
           ]}
           links={[
             {
-              text: "See the git repo here",
-              url: "https://github.com/JMFortt",
+              text: "See the Git repo",
+              url: "https://github.com/JMFortt/trash-bandits-recycled",
             },
             {
-              text: "play the updated solo release of the game here",
+              text: "Play the game",
               url: "https://jmfortt.itch.io/trash-bandits-recycled",
-            },
-            {
-              text: "play the original team release of the game here",
-              url: "https://ashketchmm.itch.io/trash-bandits",
             },
           ]}
           tags={["Unity", "C#", "GitHub", "Aesprite"]}
