@@ -11,6 +11,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "goldman";
+  src: url("./assets/fonts/Goldman-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "goldman";
+  src: url("./assets/fonts/Goldman-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
 }

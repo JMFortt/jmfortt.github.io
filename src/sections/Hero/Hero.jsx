@@ -1,9 +1,6 @@
 import React from "react";
 import styles from "./HeroStyles.module.css";
 import profileImg from "../../assets/profileImage.jpg";
-import linkedinLogo from "../../assets/linkedinLogo.svg";
-import githubLogo from "../../assets/githubLogo.svg";
-import itchLogo from "../../assets/itchLogo.svg";
 
 function Hero() {
   return (
@@ -15,29 +12,6 @@ function Hero() {
             src={profileImg}
             alt="Profile picture of Julia Fortt"
           />
-          <span>
-            <a
-              href="https://www.linkedin.com/in/jmfortt"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={linkedinLogo} alt="LinkedIn icon" />
-            </a>
-            <a
-              href="https://github.com/jmfortt"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={githubLogo} alt="GitHub icon" />
-            </a>
-            <a
-              href="https://jmfortt.itch.io/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={itchLogo} alt="Itch.io icon" />
-            </a>
-          </span>
         </div>
         <div className={styles.right}>
           <p className={styles.text}>Hi, I'm</p>

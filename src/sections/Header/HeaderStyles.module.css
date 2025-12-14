@@ -2,39 +2,74 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(102, 107, 210, 1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: #f1f1f1;
   z-index: 999;
   height: 45px;
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 .content {
+  position: relative;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
 }
 
 .left {
-  margin: 12px;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
-  flex-direction: row;
   gap: 10px;
+  align-items: center;
 }
 
 .right {
-  margin: 12px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
-  flex-direction: row;
   gap: 10px;
+  align-items: center;
+}
+
+.right img {
+  height: 18px;
+  width: auto;
+  display: block;
+}
+
+.center {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  color: var(--contrast-color);
+  font-family: goldman;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
 }
 
 .text {
   color: var(--contrast-color);
-  font-family: jersey10;
-  font-size: 16px;
+  font-family: goldman;
+  font-size: 12px;
   text-decoration: none;
   text-align: left;
 }
