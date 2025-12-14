@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "./ProjectCard";
 
+import bounceBackImg1 from "../../assets/bounceBack/img1.png";
+
 import molemakerImg1 from "../../assets/moleMaker/img1.png";
 import molemakerImg2 from "../../assets/moleMaker/img2.png";
 import molemakerImg3 from "../../assets/moleMaker/img3.png";
@@ -25,7 +27,26 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.content}>
         <ProjectCard
-          h1="MoleMaker"
+          h1="Bounce Back"
+          h2="A quick arcade style game for the GMTK 2025 Game Jam."
+          p={`Developed in 4 days for the GMTK 2025 Game Jam. 
+          
+          Game Jam Theme: "Loop"`}
+          images={[bounceBackImg1]}
+          links={[
+            {
+              text: "See the Git repo",
+              url: "https://github.com/JMFortt/bounce-back",
+            },
+            {
+              text: "Play the game",
+              url: "https://jmfortt.itch.io/bounce-back",
+            },
+          ]}
+          tags={["Godot", "GDScript", "GitHub"]}
+        />
+        <ProjectCard
+          h1="Mole Maker"
           h2="An educational video game for 7th-12th graders."
           p={`Developed as a final project for MIT's CMS.590 Design and Development of Games for Learning course, I designed this game to reinforce highschool-level chemistry topics as part of a team of 4.
           
@@ -95,6 +116,19 @@ function Projects() {
           images={[PIDLineFollowerImg1]}
           links={[]}
           tags={["C", "Arduino"]}
+        />
+        <ProjectCard
+          h1="Portfolio Website"
+          h2="This website!"
+          p={`Designed in Figma and built using React, Vite, Javascript and HTML/CSS. Deployed via GitHub Pages.`}
+          images={[]}
+          links={[
+            {
+              text: "See the Git repo",
+              url: "https://github.com/JMFortt/jmfortt.github.io",
+            },
+          ]}
+          tags={["React", "Vite", "JavaScript", "HTML/CSS", "GitHub"]}
         />
       </div>
     </section>

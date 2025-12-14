@@ -9,8 +9,8 @@ function Header() {
           <a className={styles.text}>jmfortt</a>
         </div>
         <div className={styles.right}>
-          <a className={styles.text} href="#profile">
-            Profile
+          <a className={styles.text} href="#hero">
+            Home
           </a>
           <a className={styles.text} href="#projects">
             Projects

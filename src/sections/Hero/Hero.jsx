@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "./ProfileStyles.module.css";
+import styles from "./HeroStyles.module.css";
 import profileImg from "../../assets/profileImage.jpg";
 import linkedinLogo from "../../assets/linkedinLogo.svg";
 import githubLogo from "../../assets/githubLogo.svg";
 import itchLogo from "../../assets/itchLogo.svg";
 
-function Profile() {
+function Hero() {
   return (
-    <section id="profile" className={styles.container}>
+    <section id="hero" className={styles.container}>
       <div className={styles.content}>
         <div className={styles.left}>
           <img
@@ -67,4 +67,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Hero;
