@@ -78,3 +78,14 @@
 .text:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 600px) {
+  .left {
+    left: 5%;
+  }
+
+  .right {
+    gap: 10px;
+    right: 5%;
+  }
+}
