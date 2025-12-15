@@ -110,10 +110,7 @@ function Projects() {
       h2: "A puzzle game exploring SPH fluid simulation.",
       p: "Developed on a team of 2 as a final project for MIT's 6.4400 Computer Graphics course to explore Smoothed Particle Hydrodynamics (SPH) fluid simulation in Unity.\n\n I was in charge of the fluid simulation implementation, for which this tutorial was extremely helpful: https://www.youtube.com/watch?v=zbBwKMRyavE ",
       images: [liquidSimGameImg1, liquidSimGameImg2, liquidSimGameImg3],
-      links: [
-        { text: "See the Git repo", url: "https://github.com/JMFortt" },
-        { text: "Play the game", url: "https://jmfortt.itch.io" },
-      ],
+      links: [],
       tags: ["Unity", "C#", "C++", "GitHub"],
       categories: ["Game Dev"],
     },
