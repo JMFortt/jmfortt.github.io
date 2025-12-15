@@ -7,6 +7,7 @@
   padding-bottom: 6%;
   background-color: black;
   margin-top: 200px;
+  border-top: 2px solid var(--complement-color);
 }
 
 .content {
@@ -17,7 +18,7 @@
 .text {
   font-family: "jersey10";
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--contrast-color);
   list-style-position: inside;
   text-align: center;
 }

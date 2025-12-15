@@ -1,13 +1,14 @@
 import styles from "./HeaderStyles.module.css";
+import logoImg from "../../assets/logo.svg";
 
 function Header() {
   return (
     <div className={styles.container} id="header">
       <div className={styles.content}>
         <div className={styles.left}>
-          <a className={styles.logo}>jmfortt</a>
+          <img src={logoImg} alt="Logo" className={styles.logo} />
         </div>
-        <div className={styles.center}>
+        <div className={styles.right}>
           <a className={styles.text} href="#hero">
             Home
           </a>

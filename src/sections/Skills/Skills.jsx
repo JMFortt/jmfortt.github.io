@@ -8,27 +8,20 @@ function Skills() {
     "Java",
     "C",
     "C#",
+    "C++",
     "JavaScript",
     "TypeScript",
     "HTML/CSS",
     "GDScript",
   ];
 
-  const toolsTechnologies = [
-    "Git",
-    "Linux",
-    "Arduino",
-    "Firebase",
-    "Godot",
-    "Unity",
-    "Ros2",
-    "Docker",
-    "SOLIDWORKS",
-    "React",
-    "Figma",
-    "Aseprite",
-    "Vite",
-  ];
+  const gameDev = ["Godot", "Unity", "Aseprite"];
+
+  const robotics = ["ROS2", "Arduino", "SOLIDWORKS"];
+
+  const webDev = ["React", "Vite", "Figma", "Node.js"];
+
+  const general = ["Git", "Linux", "Firebase", "Docker"];
 
   return (
     <section className={styles.container}>
@@ -37,8 +30,8 @@ function Skills() {
       </h1>
       <p className="sectionSubTitle">
         {" "}
-        Loosely organized into programming languages and general
-        tools/technologies.
+        Loosely organized into programming languages, specific domains, and
+        general tools/technologies.
       </p>
 
       <div className={styles.content}>
@@ -48,10 +41,21 @@ function Skills() {
         <div className="tags">
           {languages && languages.map((tag, i) => <Tag key={i} tag={tag} />)}
         </div>
-        <p className={styles.text}>Tools/Technologies</p>
+        <p className={styles.text}>Game Development</p>
         <div className="tags">
-          {toolsTechnologies &&
-            toolsTechnologies.map((tag, i) => <Tag key={i} tag={tag} />)}
+          {gameDev && gameDev.map((tag, i) => <Tag key={i} tag={tag} />)}
+        </div>
+        <p className={styles.text}>Robotics</p>
+        <div className="tags">
+          {robotics && robotics.map((tag, i) => <Tag key={i} tag={tag} />)}
+        </div>
+        <p className={styles.text}>Web Development</p>
+        <div className="tags">
+          {webDev && webDev.map((tag, i) => <Tag key={i} tag={tag} />)}
+        </div>
+        <p className={styles.text}>General Tools/Technologies</p>
+        <div className="tags">
+          {general && general.map((tag, i) => <Tag key={i} tag={tag} />)}
         </div>
       </div>
     </section>

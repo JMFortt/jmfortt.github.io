@@ -1,5 +1,6 @@
 .tag {
   color: var(--text-color);
+  background-color: var(--card-color);
   outline: 2px solid;
   outline-color: rgba(255, 255, 255, 0.5);
   padding: 4px 10px;

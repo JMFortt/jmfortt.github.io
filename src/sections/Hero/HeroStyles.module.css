@@ -1,6 +1,6 @@
 .container {
   margin-top: -45px;
-  padding-top: 200px;
+  padding-top: 160px;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -17,14 +17,6 @@
   overflow: hidden;
 }
 
-.left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 0 0 auto;
-  max-width: 250px;
-}
-
 .avatar {
   border-radius: 50%;
   margin-bottom: 30px;
@@ -33,19 +25,9 @@
   height: auto;
 }
 
-.left span {
-  display: flex;
-  gap: 25px;
-  justify-content: center;
-}
-
-.left span a img {
-  width: 30px;
-}
-
-.right {
+.top {
   flex: 1 1 0;
-  max-width: 500px;
+  max-width: 600px;
   min-width: 0;
   overflow-wrap: break-word;
 }
@@ -53,7 +35,7 @@
 .title {
   font-family: goldman;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 60px;
   margin: 10px 0px;
   color: var(--contrast-color);
   text-align: center;
@@ -61,15 +43,15 @@
 
 .subtitle {
   font-family: goldman;
-  font-size: 16px;
+  font-size: 32px;
   margin: 10px 0px;
-  color: var(--text-color);
+  color: var(--contrast-color);
   text-align: center;
 }
 
 .text {
   font-family: jersey10;
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px 0px;
   overflow-wrap: break-word;
   hyphens: auto;
@@ -84,23 +66,33 @@
   gap: 20px;
 }
 
-@media (max-width: 600px) {
-  .container {
-    padding-top: 40%;
-  }
+.icon:hover {
+  transform: scale(1.05);
+}
 
+@media (max-width: 800px) {
+  .container {
+    padding-top: 30%;
+  }
   .content {
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
 
-  .left {
-    max-width: 150px;
-    margin-bottom: 30px;
+  .top {
+    max-width: 75%;
   }
 
-  .right {
-    max-width: 75%;
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 16px;
   }
 }
