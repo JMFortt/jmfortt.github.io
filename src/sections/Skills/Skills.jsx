@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./SkillsStyles.module.css";
 
 import Tag from "../../common/Tag";
@@ -32,11 +31,19 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className={styles.container}>
-      <h1 className="sectionTitle">Skills</h1>
+    <section className={styles.container}>
+      <h1 id="skills" className="sectionTitle">
+        <span className="my">My</span> <span>Skills</span>
+      </h1>
+      <p className="sectionSubTitle">
+        {" "}
+        Loosely organized into programming languages and general
+        tools/technologies.
+      </p>
+
       <div className={styles.content}>
         <p className={styles.text} style={{ marginTop: "0px" }}>
-          Languages
+          Programming Languages
         </p>
         <div className="tags">
           {languages && languages.map((tag, i) => <Tag key={i} tag={tag} />)}

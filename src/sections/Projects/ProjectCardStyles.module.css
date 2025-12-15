@@ -1,78 +1,55 @@
 .container {
-  background-color: var(--card-color);
+  background-color: var(--complement-color);
   color: var(--text-color);
-  width: 75%;
-  height: fit-content;
+  width: 100%;
+  max-width: 350px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   outline: 2px solid transparent;
+  overflow: hidden;
 }
 
 .container:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-  outline: 1px solid var(--contrast-color);
+  outline: 2px solid var(--contrast-color);
 }
 
 .content {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 30px;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  align-items: stretch;
-  gap: 30px;
-}
-
-.left {
-  display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 16px;
+  align-items: stretch;
   flex: 1 1 auto;
-  min-width: 0;
-  word-wrap: break-word;
-  text-align: left;
-}
-
-.right {
-  flex: 0 0 auto;
-  width: 100%;
-  max-width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-}
-
-.top {
-  flex-shrink: 0;
-}
-
-.middle {
-  flex-grow: 1;
-}
-
-.bottom {
-  flex-shrink: 0;
-  margin-top: auto;
+  overflow: hidden;
 }
 
 .title {
-  color: var(--contrast-color);
-  text-align: left;
+  color: var(--text-color);
+  text-align: center;
   font-size: 24px;
-  font-family: "pixelifySans";
-  margin-bottom: 10px;
+  font-family: "goldman";
+  font-weight: bold;
+}
+
+.middle {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 6px;
 }
 
 .subtitle {
-  font-size: 24px;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
   font-family: "jersey10";
-  color: var(--contrast-color);
-  margin-top: 10px;
-  margin-bottom: 20px;
+  color: var(--text-color);
 }
 
 .text {
@@ -81,7 +58,7 @@
   padding: 0;
   font-size: 16px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
   font-family: "jersey10";
   white-space: pre-line;
 }
@@ -96,34 +73,36 @@
   color: var(--contrast-color);
 }
 
+.linkIcons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.linkIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.linkIcon img {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+.linkIcon:focus,
+.linkIcon:hover {
+  outline: 2px solid var(--contrast-color);
+}
+
 @media (max-width: 1200px) {
   .content {
     flex-direction: column;
     align-items: stretch;
-  }
-
-  .left {
-    width: 100%;
-    max-height: none;
-    overflow: visible;
-  }
-
-  .middle {
-    max-height: none;
-    overflow: visible;
-    padding-right: 0;
-  }
-
-  .right {
-    width: 100%;
-    max-width: none;
-    margin-top: 0px;
-  }
-
-  .tags {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
   }
 }

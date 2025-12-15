@@ -30,11 +30,10 @@ html {
 }
 
 :root {
-  --background-color: #030d1f;
-  --gradient-color: #337aff;
-  --complement-color: #2a467b;
-  --text-color: #a5b7d8;
-  --contrast-color: rgb(255, 255, 255);
+  --background-color: #050915;
+  --complement-color: #151328;
+  --text-color: #ffffff;
+  --contrast-color: #666bd2;
   --card-color: rgba(61, 91, 128, 0.25);
   --tag-color: rgba(50, 139, 255, 0.2);
 }
@@ -48,7 +47,7 @@ body {
 }
 
 section {
-  scroll-margin-top: 45px;
+  scroll-margin-top: 0px;
 }
 
 #root {
@@ -57,18 +56,37 @@ section {
 }
 
 .sectionTitle {
+  scroll-margin-top: 120px;
   color: var(--contrast-color);
   margin: 20px auto;
+  margin-top: 200px;
   width: 75%;
-  text-align: left;
-  font-family: "pixelifySans";
+  text-align: center;
+  font-family: "goldman";
+  font-weight: bold;
   font-size: 32px;
+}
+
+.sectionSubTitle {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  font-family: "jersey10";
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.my {
+  color: var(--text-color);
+  margin-right: 8px;
 }
 
 .tags {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  margin: 20px 0px;
+  justify-content: center;
+  align-items: center;
   text-wrap: none;
 }

@@ -1,10 +1,6 @@
 .container {
   margin-top: -45px;
-  padding-top: 90px;
-  background-image: linear-gradient(
-    var(--gradient-color),
-    var(--background-color)
-  );
+  padding-top: 200px;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -55,17 +51,20 @@
 }
 
 .title {
-  font-family: pixelifySans;
+  font-family: goldman;
+  font-weight: bold;
   font-size: 32px;
   margin: 10px 0px;
   color: var(--contrast-color);
+  text-align: center;
 }
 
 .subtitle {
-  font-family: pixelifySans;
+  font-family: goldman;
   font-size: 16px;
   margin: 10px 0px;
-  color: var(--contrast-color);
+  color: var(--text-color);
+  text-align: center;
 }
 
 .text {
@@ -75,11 +74,19 @@
   overflow-wrap: break-word;
   hyphens: auto;
   color: var(--text-color);
+  text-align: center;
 }
 
-@media (max-width: 800px) {
+.icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
   .container {
-    padding-top: 20%;
+    padding-top: 40%;
   }
 
   .content {
@@ -95,17 +102,5 @@
 
   .right {
     max-width: 75%;
-  }
-
-  .title {
-    text-align: center;
-  }
-
-  .subtitle {
-    text-align: center;
-  }
-
-  .text {
-    text-align: center;
   }
 }

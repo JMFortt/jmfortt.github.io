@@ -6,7 +6,7 @@
   padding-top: 3%;
   padding-bottom: 6%;
   background-color: black;
-  border-top: 2px solid var(--complement-color);
+  margin-top: 200px;
 }
 
 .content {
@@ -16,7 +16,8 @@
 
 .text {
   font-family: "jersey10";
-  color: var(--complement-color);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
   list-style-position: inside;
   text-align: center;
 }

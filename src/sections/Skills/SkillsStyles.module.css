@@ -7,15 +7,22 @@
 }
 
 .content {
-  width: 75%;
+  max-width: 600px;
   text-align: center;
   margin: 0 auto;
 }
 
 .text {
-  text-align: left;
-  font-family: "pixelifySans";
-  font-size: 28px;
+  text-align: center;
+  font-family: "goldman";
+  font-weight: bold;
+  font-size: 20px;
   color: var(--text-color);
   margin: 20px 0px;
+}
+
+@media (max-width: 600px) {
+  .content {
+    padding: 0 20px;
+  }
 }

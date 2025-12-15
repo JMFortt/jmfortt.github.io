@@ -4,11 +4,39 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 400px));
+  gap: 24px 24px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+.button {
+  margin-top: 40px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "goldman";
+  color: var(--text-color);
+  background-color: var(--contrast-color);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
 }
