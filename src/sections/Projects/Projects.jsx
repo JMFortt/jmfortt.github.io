@@ -8,7 +8,7 @@ import liquidSimGameImg3 from "../../assets/liquidSimGame/img3.png";
 
 import bounceBackImg1 from "../../assets/bounceBack/img1.png";
 
-import pomodoroTimerImg1 from "../../assets/pomodoroTimer/img1.png";
+// import pomodoroTimerImg1 from "../../assets/pomodoroTimer/img1.png";
 
 import personalWebsiteImg1 from "../../assets/personalWebsite/img1.png";
 
@@ -108,7 +108,7 @@ function Projects() {
       id: "liquid",
       h1: "You VS Liquid: A Material Simulation Game",
       h2: "A puzzle game exploring SPH fluid simulation.",
-      p: "Developed as a final project for MIT's 6.4400 Computer Graphics course, I built this game on a team of 2 to explore Smoothed Particle Hydrodynamics (SPH) fluid simulation in Unity.\n\n I was in charge of the fluid simulation implementation, for which this tutorial was extremely helpful: https://www.youtube.com/watch?v=zbBwKMRyavE ",
+      p: "Developed on a team of 2 as a final project for MIT's 6.4400 Computer Graphics course to explore Smoothed Particle Hydrodynamics (SPH) fluid simulation in Unity.\n\n I was in charge of the fluid simulation implementation, for which this tutorial was extremely helpful: https://www.youtube.com/watch?v=zbBwKMRyavE ",
       images: [liquidSimGameImg1, liquidSimGameImg2, liquidSimGameImg3],
       links: [
         { text: "See the Git repo", url: "https://github.com/JMFortt" },
@@ -127,16 +127,16 @@ function Projects() {
       tags: ["C", "Arduino"],
       categories: ["Robotics"],
     },
-    {
-      id: "pomodoro",
-      h1: "Pomodoro Timer Widget",
-      h2: "An animated Pomodoro timer widget built with JavaFX.",
-      p: "A desktop Pomodoro timer application built using Java and JavaFX. Features custom animated graphics created in Aseprite.",
-      images: [pomodoroTimerImg1],
-      links: [{ text: "See the Git repo", url: "https://github.com/JMFortt" }],
-      tags: ["Java", "JavaFX", "Aseprite", "GitHub"],
-      categories: ["Other"],
-    },
+    // {
+    //   id: "pomodoro",
+    //   h1: "Pomodoro Timer Widget",
+    //   h2: "An animated Pomodoro timer widget built with JavaFX.",
+    //   p: "A desktop Pomodoro timer application built using Java and JavaFX. Features custom animated graphics created in Aseprite.",
+    //   images: [pomodoroTimerImg1],
+    //   links: [{ text: "See the Git repo", url: "https://github.com/JMFortt" }],
+    //   tags: ["Java", "JavaFX", "Aseprite", "GitHub"],
+    //   categories: ["Other"],
+    // },
     {
       id: "personal",
       h1: "Portfolio Website",

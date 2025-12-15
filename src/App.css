@@ -12,6 +12,13 @@
 }
 
 @font-face {
+  font-family: "ubuntu";
+  src: url("./assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "goldman";
   src: url("./assets/fonts/Goldman-Regular.ttf") format("truetype");
   font-weight: normal;
@@ -34,8 +41,7 @@ html {
   --complement-color: #151328;
   --text-color: #ffffff;
   --contrast-color: #666bd2;
-  --card-color: rgba(61, 91, 128, 0.25);
-  --tag-color: rgba(50, 139, 255, 0.2);
+  --tag-color: rgba(61, 91, 128, 0.25);
 }
 
 body {
@@ -72,9 +78,8 @@ section {
   font-size: 16px;
   font-weight: 300;
   text-align: center;
-  font-family: "jersey10";
-  margin-top: 0px;
-  margin-bottom: 40px;
+  font-family: "ubuntu";
+  margin: 0 40px 40px 40px;
 }
 
 .my {

@@ -2,10 +2,10 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: rgba(102, 107, 210, 1);
+  background-color: var(--contrast-color);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  color: #f1f1f1;
+  color: var(--text-color);
   z-index: 999;
   height: 45px;
   margin: 0;
@@ -70,7 +70,6 @@
 .text {
   color: var(--text-color);
   font-family: goldman;
-  font-weight: bold;
   font-size: 16px;
   text-decoration: none;
   text-align: left;
