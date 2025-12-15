@@ -7,7 +7,7 @@
   position: relative;
   margin-top: 60px;
   padding-top: 3%;
-  padding-bottom: 6%;
+  padding-bottom: max(6%, env(safe-area-inset-bottom));
   background-color: black;
   margin-top: 200px;
   border-top: 2px solid var(--complement-color);
@@ -16,6 +16,7 @@
 .content {
   width: 80%;
   margin: 0 auto;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .text {
