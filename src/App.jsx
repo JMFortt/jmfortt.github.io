@@ -3,7 +3,6 @@ import Hero from "./sections/Hero/Hero";
 import Projects from "./sections/Projects/Projects";
 import Header from "./sections/Header/Header";
 import Skills from "./sections/Skills/Skills";
-import Experience from "./sections/Experience/Experience";
 import Footer from "./sections/Footer/Footer";
 import Particles from "./common/Particles";
 
